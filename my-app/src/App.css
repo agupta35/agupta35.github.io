@@ -1,6 +1,159 @@
 .App {
   text-align: center;
 }
+.side-bar{
+  background-color:	#FAFAFA;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 350px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+/*Sidebar icons styles*/
+.email img{
+  padding: 10px;
+  width: 38px;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+/* Add a hover effect if you want */
+
+.fa img:hover{
+  opacity: 0.7;
+  text-decoration:underline;
+}
+
+.fa img{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+}
+
+.my-image img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.my-name,.nav-column{
+  margin-top: 20px;
+}
+img.rounded-circle {
+  display: block;
+  margin: 0 auto;
+}
+.my-name{
+ font-size: xx-large;
+ font-weight: 200;
+ font-size: 40px;
+ align-items: center;
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+}
+.email{
+  margin-top: 10px;
+  font-size: small;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.nav-column{
+  font-size: medium;
+  font-weight: 100;
+  color: #000;
+}
+
+
+
+
+.main-content{
+  margin-left: 350px;
+  padding: 0px 10px;
+  height: 100%;
+  padding-top: 20px;
+  background-color: #FAFAFA;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.w-100{
+  max-height: 960px !important;
+}
+.slide-caption-1 {
+  padding: 35px;
+  padding-bottom: 450px;
+  padding-right: 110px;
+  font-weight: 400;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.slide-caption {
+  padding: 35px;
+  font-size: 70px;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.slide-caption img{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 100px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color:transparent;
+  padding: 20px;
+  padding: 16px 32px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.slide1 {
+  background-color:transparent;
+  color: black;
+  border: 2px solid #555555;
+}
+
+.slide1:hover {
+  background-color: #555555;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +175,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.leftstack{
+  font: sans-serif;;
+  align-items: center;
+  justify-content: center;
+}
+.h2{
+  font: 1em sans-serif;;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .App-link {
