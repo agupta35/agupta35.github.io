@@ -165,6 +165,9 @@ img.rounded-circle {
   background-color: white;
   color: black;
 }
+.container-fluid{
+  background-color: black;
+}
 
 /*
 ***********************
