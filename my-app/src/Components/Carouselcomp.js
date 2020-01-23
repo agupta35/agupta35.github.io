@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import {Carousel, Container,Button} from 'react-bootstrap';
-import CarouselImage1 from '../images/slide1.jpg';
+import CarouselImage1 from '../images/hello.jpg';
 import CarouselImage2 from '../images/view-projects.jpg';
 import heart from '../icons/heart.svg';
 
@@ -28,7 +28,7 @@ export default class Carouselcomp extends Component{
             const { index, direction } = this.state;
             
             return ( 
-            <Container fluid={true}>
+            <Container fluid={true} id="home">
                 <Carousel activeIndex={index} direction={direction} onSelect={this.handleSelect} pauseOnHover={true}>
                 <Carousel.Item>
                   <img className="d-block w-100"
@@ -50,7 +50,7 @@ export default class Carouselcomp extends Component{
                     <div class= "slide-caption">
                     I 
                       <span>
-                        <img src={heart} class="fa"></img>
+                        <img src={heart} class="emoji"></img>
                       </span> 
                      building things.
                       </div>

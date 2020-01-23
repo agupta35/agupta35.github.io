@@ -27,11 +27,13 @@
   font-size: 30px;
   text-align: center;
   text-decoration: none;
+  display: block;
+
 }
 /* Add a hover effect if you want */
 
 .fa img:hover{
-  opacity: 0.7;
+  opacity: 0.5;
   text-decoration:underline;
 }
 
@@ -40,6 +42,9 @@
   font-size: 30px;
   text-align: center;
   width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
 }
 
 .my-image img{
@@ -69,11 +74,24 @@ img.rounded-circle {
   font-family: 'Open Sans', sans-serif;
 }
 .nav-column{
-  font-size: medium;
-  font-weight: 100;
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+  font-weight: 200;
+  color: #000;
+}
+.nav-column a{
+  padding: 10px;
+  display: block;
   color: #000;
 }
 
+.nav-column a:hover{
+  opacity: 0.7;
+  font-weight: 400;
+  color: #2c98f0;
+  text-decoration:underline;
+}
 
 
 
@@ -81,7 +99,7 @@ img.rounded-circle {
   margin-left: 350px;
   padding: 0px 10px;
   height: 100%;
-  padding-top: 20px;
+  padding-top: 10px;
   background-color: #FAFAFA;
   flex-direction: column;
   align-items: center;
@@ -90,22 +108,24 @@ img.rounded-circle {
 }
 .w-100{
   max-height: 960px !important;
+  border: 2px solid #000 !important;
+  border-radius: 5px;
 }
+
 .slide-caption-1 {
-  padding: 35px;
-  padding-bottom: 450px;
-  padding-right: 110px;
+  padding: 30px;
   font-weight: 400;
-  font-size: 70px;
+  font-size: 3vw;
   text-align: center;
   text-decoration: none;
-  color: #000;
+  color:whitesmoke;
+  text-shadow: azure;
   font-family: 'Open Sans', sans-serif;
 }
 
 .slide-caption {
-  padding: 35px;
-  font-size: 70px;
+  padding: 30px;
+  font-size: 4vw;
   text-align: center;
   text-decoration: none;
   font-family: 'Open Sans', sans-serif;
@@ -137,13 +157,42 @@ img.rounded-circle {
 
 .slide1 {
   background-color:transparent;
-  color: black;
-  border: 2px solid #555555;
+  color: White;
+  border: 2px solid white;
 }
 
 .slide1:hover {
-  background-color: #555555;
-  color: white;
+  background-color: white;
+  color: black;
+}
+
+/*
+***********************
+***********************
+About section
+***********************
+***********************
+*/
+
+.About{
+  padding-left: 10px;
+}
+
+.About #a-title{
+  padding-top: 150px;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+
+.About #question{
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-weight: 400;
+}
+.About #answer{
+  padding-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5;
 }
 
 

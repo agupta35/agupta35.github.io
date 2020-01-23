@@ -26,12 +26,9 @@ export default class Sidebar extends Component{
         agupta35@buffalo.edu
         </div> 
         <div class="nav-column">
-          <Nav defaultActiveKey="/home" className="flex-column">
-            <Nav.Link href="/home">Home</Nav.Link>
-            <Nav.Link eventKey="link-1">About</Nav.Link>
-            <Nav.Link eventKey="link-2">Projects</Nav.Link>
-            <Nav.Link eventKey="link-3">Resume</Nav.Link>
-          </Nav>
+            <a href="#home">Home</a>
+            <a href="#about" data-nav-section="about">About</a>
+            <a href="#about" data-nav-section="about">Timeline</a>
         </div>
         <div class="fa">
             <a href="https://www.facebook.com/akshitgpt792">
