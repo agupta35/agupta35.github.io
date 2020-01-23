@@ -1,6 +1,208 @@
 .App {
   text-align: center;
 }
+.side-bar{
+  background-color:	#FAFAFA;
+  height: 100%; /* Full-height: remove this if you want "auto" height */
+  width: 350px; /* Set the width of the sidebar */
+  position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+  z-index: 1; /* Stay on top */
+  top: 0; /* Stay at the top */
+  left: 0;
+  padding-top: 20px;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+/*Sidebar icons styles*/
+.email img{
+  padding: 10px;
+  width: 38px;
+}
+
+
+.fa {
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+
+}
+/* Add a hover effect if you want */
+
+.fa img:hover{
+  opacity: 0.5;
+  text-decoration:underline;
+}
+
+.fa img{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.my-image img{
+  display: block;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.my-name,.nav-column{
+  margin-top: 20px;
+}
+img.rounded-circle {
+  display: block;
+  margin: 0 auto;
+}
+.my-name{
+ font-size: xx-large;
+ font-weight: 200;
+ font-size: 40px;
+ align-items: center;
+ text-align: center;
+ font-family: 'Open Sans', sans-serif;
+}
+.email{
+  margin-top: 10px;
+  font-size: small;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.nav-column{
+  padding: 20px;
+  text-align: center;
+  font-size: large;
+  font-weight: 200;
+  color: #000;
+}
+.nav-column a{
+  padding: 10px;
+  display: block;
+  color: #000;
+}
+
+.nav-column a:hover{
+  opacity: 0.7;
+  font-weight: 400;
+  color: #2c98f0;
+  text-decoration:underline;
+}
+
+
+
+.main-content{
+  margin-left: 350px;
+  padding: 0px 10px;
+  height: 100%;
+  padding-top: 10px;
+  background-color: #FAFAFA;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Open Sans', sans-serif;
+}
+.w-100{
+  max-height: 960px !important;
+  border: 2px solid #000 !important;
+  border-radius: 5px;
+}
+
+.slide-caption-1 {
+  padding: 30px;
+  font-weight: 400;
+  font-size: 3vw;
+  text-align: center;
+  text-decoration: none;
+  color:whitesmoke;
+  text-shadow: azure;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.slide-caption {
+  padding: 30px;
+  font-size: 4vw;
+  text-align: center;
+  text-decoration: none;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.slide-caption img{
+  padding: 10px;
+  font-size: 30px;
+  text-align: center;
+  width: 100px;
+}
+.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  border-radius: 5px;
+  color:transparent;
+  padding: 20px;
+  padding: 16px 32px;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 30px;
+  margin: 4px 2px;
+  -webkit-transition-duration: 0.4s; /* Safari */
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+
+.slide1 {
+  background-color:transparent;
+  color: White;
+  border: 2px solid white;
+}
+
+.slide1:hover {
+  background-color: white;
+  color: black;
+}
+
+/*
+***********************
+***********************
+About section
+***********************
+***********************
+*/
+
+.About{
+  padding-left: 10px;
+}
+
+.About #a-title{
+  padding-top: 150px;
+  padding-bottom: 70px;
+  font-size: 20px;
+}
+
+.About #question{
+  padding-bottom: 50px;
+  font-size: 60px;
+  font-weight: 400;
+}
+.About #answer{
+  padding-bottom: 40px;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+
+
+
+
+
+
+
+
 
 .App-logo {
   height: 40vmin;
@@ -22,6 +224,17 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+}
+.leftstack{
+  font: sans-serif;;
+  align-items: center;
+  justify-content: center;
+}
+.h2{
+  font: 1em sans-serif;;
+  align-items: center;
+  justify-content: center;
+
 }
 
 .App-link {
