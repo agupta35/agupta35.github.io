@@ -1,6 +1,5 @@
 import React, { Component } from 'react';
 import profilePicture from '../images/myPicture.jpg';
-import {Nav} from 'react-bootstrap';
 import instagram from '../icons/instagram.svg';
 import facebook from '../icons/facebook.svg';
 import linkedin from '../icons/linkedin.svg';
@@ -28,22 +27,22 @@ export default class Sidebar extends Component{
         <div class="nav-column">
             <a href="#home">Home</a>
             <a href="#about" data-nav-section="about">About</a>
-            <a href="#about" data-nav-section="about">Timeline</a>
+            <a href="#time-l" data-nav-section="time-l">Timeline</a>
         </div>
         <div class="fa">
-            <a href="https://www.facebook.com/akshitgpt792">
+            <a href="https://www.facebook.com/akshitgpt792" target="_blank">
                 <img src={facebook} class="icon" alt="Facebook"></img>
             </a>
-            <a href="https://instagram.com/akshitt.gupta" >
+            <a href="https://instagram.com/akshitt.gupta" target="_blank">
                 <img src={instagram} class="icon" alt="Instagram"></img>
             </a>
-            <a href="https://twitter.com/akshit792" >
+            <a href="https://twitter.com/akshit792" target="_blank">
                 <img src={twitter} class="icon" alt="Twitter"></img>
             </a>
-            <a href="https://www.linkedin.com/in/akshit-gupta-867a1a117/" >
+            <a href="https://www.linkedin.com/in/akshit-gupta-867a1a117/" target="_blank">
                 <img src={linkedin} class="icon" alt="LinkedIn"></img>
             </a>
-            <a href="https://github.com/agupta35" >
+            <a href="https://github.com/agupta35" target="_blank">
                 <img src={github} class="icon" alt="github"></img>
             </a>    
         </div>

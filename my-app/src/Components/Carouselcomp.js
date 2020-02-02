@@ -1,6 +1,6 @@
 import React, { Component } from "react"
 import {Carousel, Container,Button} from 'react-bootstrap';
-import CarouselImage1 from '../images/hello.jpg';
+import CarouselImage1 from '../images/snow_edited.JPG';
 import CarouselImage2 from '../images/view-projects.jpg';
 import heart from '../icons/heart.svg';
 
@@ -36,7 +36,7 @@ export default class Carouselcomp extends Component{
                     alt="First slide"
                   />
                   <Carousel.Caption>
-                    <div class="slide-caption-1">Hi! I'm Akshit</div>
+                    <div class="slide-caption-1">Hey! I'm Akshit </div>
                     <div><a class="button slide1"href="https://drive.google.com/open?id=17jfdbaISr2GEO5GJ1nYaw8Kcdz61FKFi">View CV</a></div>
                   </Carousel.Caption>
                 </Carousel.Item>
