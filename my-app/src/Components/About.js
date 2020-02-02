@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {Card,CardDeck,Row} from 'react-bootstrap'
+import {Card,CardDeck} from 'react-bootstrap'
 
 class About extends Component{
 
@@ -35,7 +35,7 @@ render() {
             <Card.Body>
                 <Card.Title><span class="card-icon"><i class="fas fa-database"></i></span>Data Structures and Algorithms</Card.Title>
                     <Card.Text>
-                         Knowledge
+                    I have good grasp over fundamental concepts of Data Structures and Algorithms.
                     </Card.Text>
             </Card.Body>
         </Card>
