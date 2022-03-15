@@ -1,5 +1,6 @@
-## This is my Portfolio app
+Portfolio
+Visit www.akshitgupta.info to see it!
 
-Built using react and deployed using gh-pages.
+## Copyright and License
 
-Clone and edit to create a beautiful portfolio for yourself.
+Copyright 2013-2021 Blackrock Digital LLC. Code released under the [MIT](https://github.com/BlackrockDigital/startbootstrap-grayscale/blob/gh-pages/LICENSE) license.
