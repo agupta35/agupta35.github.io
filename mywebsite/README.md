@@ -1,5 +1,5 @@
 Portfolio
-Visit www.akshitgutpa.info to see it!
+Visit www.akshitgupta.info to see it!
 
 ## Copyright and License
 
