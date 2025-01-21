@@ -1,5 +1,5 @@
 Portfolio
-Visit agupta35.github.io to see it!
+Click [here](https://agupta35.github.io) to view it!
 
 ## Copyright and License
 
