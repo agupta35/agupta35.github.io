@@ -1,5 +1,5 @@
 Portfolio
-Visit www.akshitgupta.info to see it!
+Visit agupta35.github.io to see it!
 
 ## Copyright and License
 
